@@ -1,3 +1,16 @@
+## Team and roles
+
+| Name | Role |
+|------|------|
+| Kireet Singh | Undecided |
+| Justin P.George | Undecided |
+| Brandon | Undecided |
+
+
+Everyone writes tests and docs for their own module .
+
+---
+
 # PIC24 Lux Logger
 
 A light-intensity (lux) data logger built on the **Microchip PIC24F Starter Kit 1**.
@@ -101,21 +114,6 @@ time,lux
 08:00:00,312
 08:01:00,318
 ```
-
----
-
-## Team and roles
-
-| Member | Role | Responsibilities |
-|--------|------|------------------|
-| **Member 1** | Project lead and integration | GitHub repo, task board, merging PRs, main loop and state machine, final demo and report |
-| **Member 2** | Sensor and hardware | Light sensor wiring, ADC driver, lux calibration, RTCC timekeeping, schematic in `docs/` |
-| **Member 3** | USB and data storage | MLA USB host + FAT file system, CSV writing, reading logs back by day, handling a missing or removed USB stick |
-| **Member 4** | UI and display | OLED font and text, menus, day selection with the touch pads, daily graph, LED status |
-
-Everyone writes tests and docs for their own module and reviews at least one other member's pull request.
-
-> Replace "Member N" with real names / GitHub usernames. If the team has 3 people, merge **Sensor** into **Project lead** (lead also owns the sensor + RTC).
 
 ---
 
